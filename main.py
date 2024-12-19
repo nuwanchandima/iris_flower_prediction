@@ -6,3 +6,5 @@ import pandas as pd
 dataFrame=pd.read_csv("data//iris-flower-data.csv")
 
 print("Dataframes...\n",dataFrame)
+
+print(dataFrame.describe())
